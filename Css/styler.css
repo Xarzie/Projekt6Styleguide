@@ -1,5 +1,24 @@
 /* menu */
 
+.headeren {
+  width: auto;
+  margin-bottom: 1%;
+  position: relative;
+  text-align: center;
+  margin-top: -1%;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  font-family: 'Questrial', sans-serif;
+  text-shadow: -1px -1px 0 #606060;
+  font-size: 4.2em;
+}
+
+
 .containerx {
     position: absolute;
     top: 15px;
@@ -23,7 +42,7 @@
         padding-top:5px;
         padding-bottom: 5px; 
         z-index: 20000;
-        margin-left: -0%;
+        margin-left: 1%;
         }
   
         div#topbar > #sections_btn_holder > button{ 
@@ -175,12 +194,14 @@
   
   .main_content ul{
     padding: 0;
+    margin-left: 200px;
+    margin-bottom: 250px;
   }
   
   .main_content li{
     float: left;
     width: 42%;
-    margin-right: -200px;
+    margin-right: 100px;
     list-style-type: none; 
     margin-bottom: -10%;
     margin-top: 300px;
@@ -234,3 +255,6 @@
         margin-left: 2%;
         border-radius: 10px;
         }
+
+
+
