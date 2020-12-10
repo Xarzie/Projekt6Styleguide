@@ -1,0 +1,3 @@
+Denne mappe indholder alt CSS til styleguiden. 
+Indholdet i styleguiden bliver hevet herfra, og
+ bliver referet hertil, For nem kopiering og anvendelese brug styleguiden.
