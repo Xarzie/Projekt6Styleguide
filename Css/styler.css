@@ -237,6 +237,7 @@
       .main_content h5 {
         font-size: 1.4em;
         margin-top: 3%;
+        font-family: 'Questrial', sans-serif;
         margin-bottom: 6%;
       }
       .main_content button {
@@ -256,5 +257,7 @@
         border-radius: 10px;
         }
 
-
+        .margintopparagraf {
+        font-family: 'Questrial', sans-serif;
+}
 
