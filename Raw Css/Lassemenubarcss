@@ -1,0 +1,150 @@
+:root{
+  --red: #A92E23;
+  --darkblue: #102A4B;
+  --sand: #F2E7C4;
+  --white: #fff;
+  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Khand", Times, serif;
+}
+/*navigations bar*/
+.burger_menu{
+  display: none;
+}
+#drop-content{
+  display: none;
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+}
+nav img{
+  width:200px;
+  position: absolute;
+  margin-top: 25px;
+}
+nav .menu-bar{
+  background-color: var(--darkblue);
+  display: flex;
+  list-style-type: none;
+  margin-top: 30px;
+  width:100%;
+  justify-content: space-between;
+}
+.menu-bar li{
+  white-space: nowrap;
+}
+
+nav li a{
+  display: inline-block;
+  text-decoration: none;
+  color: var(--sand);
+  font-weight: 500;
+  text-transform: uppercase;
+  padding:10px 20px 10px 20px;
+}
+
+#menuBar1{
+  /*padding-right:50px;*/
+}
+#menuBar2{
+  margin-left:200px;
+}
+
+/*main content*/
+main > div{
+  width: 1110px;
+  margin: auto;
+}
+
+.menu-bar li:hover{
+  background-color: var(--sand);
+  transition: 0.4s;
+}
+nav li a:hover{
+  color: var(--dankblue);
+  transition: 0.4s;
+}
+
+@media only screen and (max-width: 425px) {
+  .burger_menu{
+    display: block;
+  }
+  nav{
+    background-color: var(--darkblue);
+    height:60px;
+  }
+  #menuBar1,#menuBar2{
+    display: none;
+  }
+  nav img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+  }
+  .burger_menu{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: 15px;
+    margin-top:5px;
+  }
+  .btn_burger_menu{
+    display: flex;
+    height: 6px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: var(--sand);
+    align-items: center;
+
+  }
+  .btn_burger_menu::before,
+  .btn_burger_menu::after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    border-radius: 5px;
+    background-color: var(--sand);
+}
+
+  .btn_burger_menu::before {
+    transform: translateY(-16px);
+  }
+  .btn_burger_menu::after {
+    transform: translateY(16px);
+  }
+
+  #drop-content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin-top: 65px;
+  }
+
+  #drop-content li{
+    text-align: center;
+    background-color: var(--darkblue);
+    border-top: 1px solid var(--sand);
+
+    /*padding: 10px 0px 10px 0px;*/
+  }
+  #drop-content a{
+    text-decoration: none;
+    color: var(--sand);
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 0px 10px 0px;
+    width:100%;
+
+  }
+}
