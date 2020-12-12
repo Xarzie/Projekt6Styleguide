@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <!--font-family: 'Questrial', sans-serif;-->
+    <script src="javasovs.js" defer></script>
+    <link rel="stylesheet" href="stylesovs.css">
+</head>
+
+<body>
+    <div>
+        <section class="contactus">
+            <ul>
+                <li>
+                    <h3>Ansøgningskema til nye frivillige på stoppestedet</h3>
+
+                    <p class="fat">Frivillig kordinator:</p>
+                    <p class="textform">Camilla Hviid, Jernbanegade 24b, 5000 Odense C. <br><br>
+                        Email: cahv@odense.dk</p>
+                    <p class="smallfat">
+                        Dine oplysninger oplysninger behandles fortroligt og vil kun blive læst af personalet
+                        fra Stoppestedet.
+                    </p>
+
+                    <form class="contact-form" action="sendbesked.php" method="post">
+                        <input id="ditnavn" type="text" name="name" placeholder="Navn" onkeyup="kunbogstavernavn(this)">
+                        <div class="tekstsizeiforkerttegnnavn" id="forkerttegn"></div>
+                        <br>
+                        <input id="jegkanlital" type="text" name="telefon" placeholder="Telefon nummer"
+                            onkeyup="kunbogstavnumber(this)">
+                        <div class="tekstsizeiforkerttegnnavn" id="forkertnummerbro"></div>
+                        <br>
+                        <input id="jegkanlital" type="text" name="telefon" placeholder="Alder"
+                            onkeyup="kunbogstavnumberalder(this)">
+                        <div class="tekstsizeiforkerttegnnavn" id="forkertalderbro"></div>
+                        <br>
+                        <input id="kuntal" type="text" name="email" placeholder="Din Email"
+                            onkeyup="kunbogstavermail(this)">
+                        <div class="tekstsizeiforkerttegnnavn" id="forkerttegnmail"></div>
+                        <br>
+                        <textarea name="message"
+                            placeholder="Hvofor vil du gerne være frivillig på stoppestedet?"></textarea>
+                        <br>
+                        <textarea name="message"
+                            placeholder="Hvad vil du gerne have ud af dit frivillige arbejde?"></textarea>
+                        <br>
+                        <textarea name="message"
+                            placeholder="Hvilke erfaringer har du med frivilligtarbejde?"></textarea>
+                        <br>
+                        <textarea name="message" placeholder="Hvilke frvillige opgaver vil du helst lave?"></textarea>
+                        <br>
+                        <textarea name="message"
+                            placeholder="Har du særlige kompetencer/talenter som du kunne forstille dig at bruge som frvillig?"></textarea>
+                        <br>
+                        <textarea name="message"
+                            placeholder="På hvilken måde har du kendskab til psykisk sygdom og psykiatri?"></textarea>
+                        <br>
+                        <textarea name="message"
+                            placeholder="Har du fysiske eller psykiske begrænsninger vvi skal tage hensyn til?"></textarea>
+                        <br>
+                        <textarea name="message"
+                            placeholder="Har du mulighed for at være frivillig i weekender og helligdage?"></textarea>
+                        <br>
+                        <textarea name="message" placeholder="Er der andet du synes vi skal vide?"></textarea>
+                        <br>
+                        <button id="glidebane" type="sumbit" name="submit"></button>
+                    </form>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+
+</html>
