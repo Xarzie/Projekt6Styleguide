@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stoppestedet</title>
+    <link rel="stylesheet" href="css/menu_bar.css">
+    <link rel="icon" type="image/svg" href="img/favicon-02-01.svg"/>
+    <script src="js/menu_bar.js" defer></script>
+
+  </head>
+  <body>
+    <nav>
+      <ul class="menu-bar" id="menuBar1"> <!--menu-baren bliver lavet fra mb_js.js, fra menu1-->
+      </ul>
+      <a href="forside.html"><img src="img/stoppestedet_logo.png" alt="stoppestedet_logo"></a>
+      <ul class="menu-bar" id="menuBar2"> <!--menu-baren bliver lavet fra mb_js.js, fra menu2-->
+      </ul>
+      <div class="burger_menu" onclick="show_hide()"> <!-- burger bar container -->
+        <div class="btn_burger_menu"><!-- burger bar  -->
+        </div>
+      </div>
+      <ul id="drop-content"> <!-- mobil ul menu / dropdown -->
+      </ul>
+    </nav>
+    
+  </body>
+</html>
