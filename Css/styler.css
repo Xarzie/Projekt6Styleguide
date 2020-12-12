@@ -1,5 +1,9 @@
 /* menu */
 
+html {
+  scroll-behavior: smooth; 
+}
+
 .headeren {
   width: auto;
   margin-bottom: 1%;
