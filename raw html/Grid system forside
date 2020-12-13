@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/grid.css">
+    <script src="js/menu_bar.js" defer></script>
+    <title>Stoppestedet</title>
+</head>
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <h1>Velkommen til Stoppestedet</h1>
+        </header>
+        <aside class="vside">
+            <a href="*"><img src="img/aabentsind.svg" alt="Åbentsind logo"></a>
+            </aside>
+        </aside>
+        <aside class="hside">
+            <article>
+                <h2>Opdateret 8.12.20</h2>
+                <p class="disclaimer">
+                    Vi må fortsat være op til 30 pers.<br>
+                    Personale og frivillig skal bære visir eller mundbind.
+                    Der er ingen krav til, at besøgende skal bære mundbind. Men hvis man ønsker det, har vi også det til rådighed.
+                    </p>
+            </article>
+        </aside>
+        <section class="velkommen">
+            <p><b>Stoppestedet ligger i hjertet af Odense og er et mødested for sindslidende
+                eller borgere, der har andre psykosociale problemstillinger. Huset har
+                eksisteret i mange år og rummer mange forskelligartede tilbud henvendt til unge, voksne og pårørende.
+                <br><br>
+                Her på hjemmesiden kan du læse mere om vores mangeartede tilbud, hvordan du bliver frivillig i organisationen og helt konkret, hvad Stoppestedet præcist er.</b></p><br>
+                 <a href="*"class="knap"><b>Kontakt os idag</b></a>
+        </section>
+        
+        <section class="det-sker">
+            <!-- <h2>Det sker lige nu</h2> -->
+       <div class="p2p-card">
+           <a href="*"><img src="img/P2P uden bg.svg" alt="Peer to Peer Logo en del af Stoppestedet Odense"></a>
+           <p>Peer to Peer Odense er et projekt, som er drevet på en masse gode frivillige kræfter, der brænder for at hjælpe mennesker med psykiske sårbarhed.
+            Som ung eller ny med psykisk sårbarhed, kan man miste håbet og troen på at livet igen kan blive meningsfuldt og godt. Med inspiration fra en anden, som kender det fra eget liv, kan man få mod og troen på at kunne bo i egen bolig, komme i arbejde/uddannelse, komme i gang med en aktivitet eller ud af ensomhed.
+            </p>
+            <a href="*">Læs mere her</a>
+
+
+       </div>
+       <div class="cafe-card">
+           <p><br><br><br>
+            <strong>NADA CAFÉ</strong><br>
+            Mandage kl. 11, 12 & 15 <br>
+            Onsdage kl. 11, 12 & 15 <br>
+            Torsdage kl. 11, 12 & 15 <br>
+            Fredage kl. 12 & 13. <br>
+            <br><br>
+            <strong>
+             Husk at bestille tid på de faste tidspunkter på <br>
+            Tlf.:  66 19 02 65</strong>
+           </p>
+          
+       </div>
+       <div class="aktiviteter-card">
+       <p>
+           <strong>Strikkeklub</strong><br>
+            Onsdag kl. 12
+       </p> 
+       <img src="img/strikkeklub.svg" alt="ikon af strikkepinde indsat i strikkegarn event som foregård på Stoppestedet Odense"><br>
+       <p><strong> Walk n’ talk</strong> <br>
+        Tirsdag og Torsdag kl. 13 <br>
+        Mødested: Afarten ved Munkemose</p><br>
+        <img src="img/fodspor.svg" alt="ikon af fodspor fra Walk and Talk et Peer to Peer Odense Event">
+       </div>
+        </section>
+        
+        <section class="ben">
+          
+            <img src="img/vi mødes på Stoppestedet.svg" alt="Billede af ben fra forskellige folk der venter på at mødes på Stoppestedet Odense">
+        </section>
+        <footer class="footer">
+            <div class="footerbox">
+               <p>
+                   <strong>Adresse</strong><br>
+                    SIND værestedet Stoppestedet<br>
+                    Jernbanegade 24B<br>
+                    5000 Odense C<br>
+                    info@stoppestedet.dk<br><br>
+                    <strong>Telefon:</strong><br>
+                    telefonrådgivningen: 70 23 27 50<br>
+                    Værestedet Stoppestedet: 66 19 02 65<br>
+                    Kontor: 66 19 03 26<br>
+               </p> 
+
+            </div>
+            <div class="footerbox">
+                <p>
+                    <strong>Åbningstider for værestedet</strong><br>
+                    Mandag:  11.00 – 22.00<br>
+                    Tirsdag:  11.00 – 15.00<br>
+                    Onsdag:  11.00 – 22.00<br>
+                    Torsdag:  11.00 – 22.00<br>
+                    Fredag:  11.00 – 22.00<br>
+                    Lørdag:  14.00 – 20.00<br>
+                    Søndag:  14.00 – 20.00<br>
+                    Helligedage: 14.00 – 20.00<br>
+
+                    Værestedet Stoppestedet har åbent på alle helligdage undtagen 1. januar.
+                </p> 
+ 
+             </div>
+             <div class="footerbox">
+                <p>
+                    <strong>Åbningstider for telefonrådgivningen:</strong><br>
+                    Hverdage kl. 11-22<br>
+                    Søn-/helligdag kl. 17-22<br>
+                    Lørdag lukket.<br>
+                    <br>
+                    <strong>Åbningstider i ungegruppen:</strong><br>
+                    Onsdag kl. 18-21<br>
+                    <br>
+                    <strong>Skibhus kabyssen</strong><br>
+                    Tirsdag kl. 16.00 – 20.00<br><br>
+                </p> 
+                <ul>
+                    <li><a href="*"><img src="img/fb-icon.svg" alt=""></a></li>
+                    <li><a href="*"><img src="img/yt.icon.svg" alt=""></a></li>
+                    <li><a href="*"><img src="img/insta-icon.svg" alt=""></a></li>
+                   
+                  </ul>
+ 
+             </div>
+        </footer>
+      </div>
+</body>
+</html>
