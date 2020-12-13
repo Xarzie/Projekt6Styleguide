@@ -1,0 +1,193 @@
+:root {
+    --roed: #A92D23;
+    --blaa: #32BFC0;
+    --aeg:#f2e7c4;
+    --mblaa:#102a4b;
+    --lroed:#d9a3a3;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Khand", Times, serif;
+    color: var(--mblaa);
+    
+    
+  }
+  
+  .broedtext{
+      font-family: "lato";
+  }
+  .grid-container {
+    /* background-color: var(--aeg); */
+    display: grid;
+    grid-template-columns: repeat(14, [col-start] 1fr);
+    
+    gap: 0px 0px;
+    background-color: var(--aeg);
+   
+  }
+
+  .knap {
+    background-color: var(--blaa);
+  text-decoration: none;
+  padding: 2% 8%;
+  border-radius: 14em;
+  font-size: 20px;
+  
+}
+ /*  ROW 1 Header med billed */
+ .header{
+  grid-column: col-start / span 14;
+  background-image: url(/img/tristfyr.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  text-align: center;
+  
+  }
+
+  .header h1{
+    font-size: 3rem;
+    margin-top: 20rem;
+  }
+ /*  ROW2 Venstre side med Åbentsind */
+  .vside{
+    grid-column: col-start / span 3;
+    grid-row: 2;
+    margin: 5%;
+  }
+
+  .vside img{
+    height: 190px;
+    width: 100%;
+  }
+
+  /* ROW2 Højreside med disclaimer og corona warning */
+  .hside{
+    grid-column: col-start 8 / span 6;
+  grid-row: 2;
+  
+  background-image: url(/img/Cirkel\ med\ maske.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+ 
+ 
+  }
+.hside article{
+  width: 300px;
+  margin: 24%;
+  font-size: 1vw;
+}
+/* ROW2 Velkomsttekst i midten med kontakt knap */
+.velkommen{
+  grid-column: col-start 4 / span 4;
+  grid-row: 2;
+  width: 500px;
+  margin-top: 5%;
+  font-size: 24px;
+  
+
+}
+.velkommen a{
+  font-size: 30px;
+}
+
+
+/* ROW3 CARDS */
+.det-sker{
+  grid-column: 1 / span 14;
+    grid-row: 3;
+    background-color: var(--roed);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    
+}
+.det-sker h2{
+  position: relative;
+  font-size: 70px;
+  left: 40%;
+  top: -25%;
+  
+}
+.p2p-card{
+  
+  background-image: url(/img/P2P\ card.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 330px;
+  height: 660px;
+  padding: 5% 2%;
+}
+
+.cafe-card{
+  text-align: center;
+  background-image: url(/img/CAFE\ CARD.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 330px;
+  height: 660px;
+  padding: 5% 2%;
+  margin: 6%;
+ 
+ 
+
+} 
+.aktiviteter-card{
+  transform: rotate(4deg);
+  text-align: center;
+  background-image: url(/img/aktiviteter\ kort.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 330px;
+  height: 660px;
+  padding: 5% 2%;
+} 
+ /*  ROW4 Ben */
+ .ben{
+ grid-column: col-start 1 / span 14;
+ grid-row: 4;
+ background-color:white;
+ }
+ .ben img{
+   height: 100%;
+   width: 100%;
+ }
+
+/*  ROW5 Footer */
+.footer{
+  grid-column: col-start 1 / span 14;
+  grid-row: 5;
+  background-color: var(--mblaa);
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    padding-top:2% ;
+   
+  
+  }
+  .footer p{
+    color: var(--aeg);
+  }
+  .footerbox strong{
+    color: var(--aeg);
+  }
+
+   .footerbox ul{
+    
+      list-style-type: none;
+     /*  margin: 0;
+      padding: 0; */
+      
+  }
+  .footerbox li {
+    
+      float: left;
+      margin: 2%;
+    
+  }
