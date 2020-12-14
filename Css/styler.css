@@ -160,6 +160,17 @@ html {
       text-shadow: -1px -1px 0 #292929;
       text-decoration: none;
     }
+    .aktiviter {
+      position: absolute;
+      top: 320px;
+      left: 35px;
+      font-size: 1.4em;
+      font-family: 'Questrial', sans-serif;
+      color: whitesmoke;
+      white-space: nowrap;
+      text-shadow: -1px -1px 0 #292929;
+      text-decoration: none;
+    }
    
 
 
