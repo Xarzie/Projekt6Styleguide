@@ -1,0 +1,76 @@
+/* Bruger database en array indeholdende objekter*/
+var database = [
+    {
+          username: "Yai",
+          password: "Kunchorn"
+    },
+    {
+        username: "Bob",
+        password: "111"
+  },
+  {
+    username: "Benny",
+    password: "222"
+},
+{
+    username: "Bente",
+    password: "333"
+},
+];
+
+
+function validerUser(username, password) {
+    for (var i=0; i < database.length; i++) {
+        if(database[i].username === username &&
+            database[i].password === password){
+                return true;
+            }
+    }
+    return false;
+}
+
+var msg;
+function signIn(username, password){
+    if(validerUser(username, password)){
+        console.log(aktiviteter);
+       location.replace("aktiviteter.html");
+    }else{
+       /*Forkert navn og adgangskode*/
+      msg ="Forkert navn og adgangskode";  
+    }
+    
+}
+/* prompt til at logge på */
+var namePrompt = prompt("Indtast Navn");
+var passwordPrompt = prompt("Indtast Adgangskode");
+
+
+
+
+/* kalder funktion signIn med de to promts som værdier */
+signIn(namePrompt, passwordPrompt);
+
+window.onload = function() {
+    document.body.innerHTML = msg;
+}
+
+
+    
+
+
+
+/* Aktiviteter */
+var aktiviteter = [
+    {
+          username: "Bob",
+          postText: "This is first post!"
+    },
+    {
+          username: "Benny",
+          postText: "This is second post!"
+    },
+    {
+          username: "Bente",
+          postText: "Husk din array starter fra 0"
+    }
+];
